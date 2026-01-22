@@ -40,7 +40,7 @@ export const PRODUCTS: Product[] = [
   { 
     id: 4, 
     name: "Barrier Breaker Cap", 
-    price: 1000, 
+    price: 800, 
     category: "Accessories", 
     image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?q=80&w=800", 
     color: "#AED9E0", 
@@ -49,15 +49,15 @@ export const PRODUCTS: Product[] = [
   { 
     id: 5, 
     name: "Official Court Hoodie", 
-    price: 7800, 
+    price: 2500, 
     category: "Official", 
-    image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800", 
+    image: "./assets/officialc.png", 
     color: "#FFF4E0" 
   },
   { 
     id: 6, 
     name: "Turtle Tee", 
-    price: 3200, 
+    price: 1500, 
     category: "Street", 
     image: "./assets/14.png", 
     color: "#FADADD" 
@@ -95,12 +95,14 @@ export const LOOKBOOK_IMAGES = [
 "./assets/croakish.png",
 "./assets/mockup 2 (1).png",
 "./assets/lkk5.jpeg",
+"./assets/maus.png",
 "./assets/lkk7.jpeg",
 "./assets/lk3.jpeg",
 "./assets/dy5.jpeg",
 "./assets/lkk6.jpeg",
+"./assets/ogajis.png",
 "./assets/lkk3.jpeg",
-"./assets/lkk4.jpeg",
+"./assets/lk55.jpeg",
 "./assets/lk1.jpeg",
 "./assets/39.png",
 "./assets/soul.jpeg",

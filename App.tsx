@@ -404,7 +404,7 @@ const App: React.FC = () => {
                 
                 <div className="relative group animate-fade-left lg:block" style={{ animationDelay: '0.4s' }}>
                   <div className="aspect-[4/5] rounded-[4rem] md:rounded-[6rem] overflow-hidden shadow-4xl relative z-10 transform rotate-2 group-hover:rotate-0 transition-transform duration-[1500ms] border-[12px] md:border-[20px] border-white bg-white">
-                    <img src="https://images.unsplash.com/photo-1544919982-b61976f0ba43?q=80&w=1600" alt="Core Vibe" className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-[2000ms]" />
+                    <img src="./assets/bggg.jpg" alt="Core Vibe" className="w-full h-full object-cover scale-110 group-hover:scale-100 transition-transform duration-[2000ms]" />
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                   </div>
                 </div>
@@ -455,7 +455,7 @@ const App: React.FC = () => {
                    <div className="relative aspect-video max-w-5xl mx-auto rounded-[3rem] overflow-hidden border-8 border-white shadow-4xl bg-slate-900 group">
                       <video 
                         key={manualVideoUrl}
-                        src={manualVideoUrl} 
+                        src="./assets/vd2.mp4" 
                         className="w-full h-full object-cover" 
                         autoPlay 
                         loop 
@@ -473,7 +473,7 @@ const App: React.FC = () => {
 
             <section className="py-32 md:py-64 bg-slate-900 text-white rounded-[4rem] md:rounded-[10rem] mx-4 md:mx-10 relative overflow-hidden group mt-12">
                <div className="absolute inset-0 opacity-20 pointer-events-none">
-                 <img src="https://images.unsplash.com/photo-1519861531473-9200262188bf?q=80&w=1600" className="w-full h-full object-cover grayscale group-hover:scale-110 transition-transform duration-[5000ms]" alt="Vision" />
+                 <img src="./assets/am1.png" className="w-full h-full object-cover grayscale group-hover:scale-110 transition-transform duration-[5000ms]" alt="Vision" />
                </div>
                <div className="container mx-auto px-6 relative z-10 text-center">
                   <h3 className="text-[clamp(3rem,10vw,12rem)] font-black uppercase italic tracking-tighter leading-none mb-16 animate-float">BEYOND THE <br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFD8BE] to-orange-400">CORE.</span></h3>
@@ -558,7 +558,7 @@ const App: React.FC = () => {
            <section className="py-24 container mx-auto px-6">
               <div className="flex flex-col md:flex-row items-baseline gap-4 mb-16 md:mb-24 animate-fade-up">
                 <h3 className="text-5xl md:text-8xl font-black italic uppercase tracking-tighter">THE ARCHIVE.</h3>
-                <span className="text-[10px] font-black uppercase tracking-[0.5em] text-slate-300">30 ENTRIES FOUND</span>
+                <span className="text-[10px] font-black uppercase tracking-[0.5em] text-slate-300">AWESOME ENTRIES FOUND</span>
               </div>
               <div className="columns-2 md:columns-3 xl:columns-4 gap-6 md:gap-12">
                  {LOOKBOOK_IMAGES.map((img, i) => (
